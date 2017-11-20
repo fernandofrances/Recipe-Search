@@ -10,6 +10,9 @@ import UIKit
 final class CoreAssembly {
     private let navigationController: UINavigationController
     
+    private (set) lazy var searchAssembly = SearchAssembly(webServiceAssembly: webServiceAssembly)
+    private(set) lazy var webServiceAssembly = WebServiceAssembly()
+    
     public init(navigationController: UINavigationController){
         self.navigationController = navigationController
     }

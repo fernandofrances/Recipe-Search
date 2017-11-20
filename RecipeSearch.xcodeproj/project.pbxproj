@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		E0A45B801FC35B0400F0258F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45B7F1FC35B0400F0258F /* AppDelegate.swift */; };
-		E0A45B821FC35B0400F0258F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45B811FC35B0400F0258F /* ViewController.swift */; };
 		E0A45B871FC35B0400F0258F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A45B861FC35B0400F0258F /* Assets.xcassets */; };
 		E0A45B8A1FC35B0400F0258F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A45B881FC35B0400F0258F /* LaunchScreen.storyboard */; };
 		E0A45B921FC35B1900F0258F /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45B911FC35B1900F0258F /* AppAssembly.swift */; };
 		E0A45B961FC35B9200F0258F /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45B951FC35B9200F0258F /* CoreAssembly.swift */; };
 		E0A45B9A1FC35C6A00F0258F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45B991FC35C6A00F0258F /* Recipe.swift */; };
+		E0A45B9D1FC35E2100F0258F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45B9C1FC35E2100F0258F /* SearchViewController.swift */; };
+		E0A45B9F1FC35E2A00F0258F /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45B9E1FC35E2A00F0258F /* SearchPresenter.swift */; };
+		E0A45BA21FC35E4200F0258F /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BA11FC35E4200F0258F /* Endpoint.swift */; };
+		E0A45BA41FC35E4B00F0258F /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BA31FC35E4B00F0258F /* WebService.swift */; };
+		E0A45BA61FC35E5900F0258F /* WebServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BA51FC35E5900F0258F /* WebServiceAssembly.swift */; };
+		E0A45BAB1FC366BF00F0258F /* SearchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BAA1FC366BF00F0258F /* SearchAssembly.swift */; };
+		E0A45BAD1FC367AA00F0258F /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BAC1FC367AA00F0258F /* SearchResult.swift */; };
+		E0A45BB01FC36C4900F0258F /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BAF1FC36C4900F0258F /* SearchRepository.swift */; };
+		E0A45BB31FC37DAD00F0258F /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BB11FC37DAD00F0258F /* SearchCell.swift */; };
+		E0A45BB41FC37DAD00F0258F /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A45BB21FC37DAD00F0258F /* SearchCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E0A45B7C1FC35B0400F0258F /* RecipeSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A45B7F1FC35B0400F0258F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0A45B811FC35B0400F0258F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0A45B861FC35B0400F0258F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0A45B891FC35B0400F0258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0A45B8B1FC35B0400F0258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0A45B911FC35B1900F0258F /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		E0A45B951FC35B9200F0258F /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
 		E0A45B991FC35C6A00F0258F /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		E0A45B9C1FC35E2100F0258F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E0A45B9E1FC35E2A00F0258F /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		E0A45BA11FC35E4200F0258F /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E0A45BA31FC35E4B00F0258F /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		E0A45BA51FC35E5900F0258F /* WebServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceAssembly.swift; sourceTree = "<group>"; };
+		E0A45BAA1FC366BF00F0258F /* SearchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAssembly.swift; sourceTree = "<group>"; };
+		E0A45BAC1FC367AA00F0258F /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		E0A45BAF1FC36C4900F0258F /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		E0A45BB11FC37DAD00F0258F /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		E0A45BB21FC37DAD00F0258F /* SearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +78,6 @@
 			children = (
 				E0A45B911FC35B1900F0258F /* AppAssembly.swift */,
 				E0A45B7F1FC35B0400F0258F /* AppDelegate.swift */,
-				E0A45B811FC35B0400F0258F /* ViewController.swift */,
 				E0A45B861FC35B0400F0258F /* Assets.xcassets */,
 				E0A45B881FC35B0400F0258F /* LaunchScreen.storyboard */,
 				E0A45B8B1FC35B0400F0258F /* Info.plist */,
@@ -72,6 +89,9 @@
 		E0A45B931FC35B7700F0258F /* RecipeSearchCore */ = {
 			isa = PBXGroup;
 			children = (
+				E0A45BB51FC381FC00F0258F /* Util */,
+				E0A45BA01FC35E3500F0258F /* WebService */,
+				E0A45B9B1FC35E0900F0258F /* Search */,
 				E0A45B971FC35C5F00F0258F /* Common */,
 				E0A45B941FC35B8A00F0258F /* DI */,
 			);
@@ -100,6 +120,69 @@
 				E0A45B991FC35C6A00F0258F /* Recipe.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		E0A45B9B1FC35E0900F0258F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E0A45BAE1FC36C4000F0258F /* Repositories */,
+				E0A45BA91FC366B400F0258F /* DI */,
+				E0A45BA71FC366A400F0258F /* Domain */,
+				E0A45BA81FC366AE00F0258F /* Presentation */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E0A45BA01FC35E3500F0258F /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				E0A45BA11FC35E4200F0258F /* Endpoint.swift */,
+				E0A45BA31FC35E4B00F0258F /* WebService.swift */,
+				E0A45BA51FC35E5900F0258F /* WebServiceAssembly.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		E0A45BA71FC366A400F0258F /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E0A45BAC1FC367AA00F0258F /* SearchResult.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E0A45BA81FC366AE00F0258F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E0A45B9E1FC35E2A00F0258F /* SearchPresenter.swift */,
+				E0A45B9C1FC35E2100F0258F /* SearchViewController.swift */,
+				E0A45BB11FC37DAD00F0258F /* SearchCell.swift */,
+				E0A45BB21FC37DAD00F0258F /* SearchCell.xib */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E0A45BA91FC366B400F0258F /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				E0A45BAA1FC366BF00F0258F /* SearchAssembly.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		E0A45BAE1FC36C4000F0258F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E0A45BAF1FC36C4900F0258F /* SearchRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E0A45BB51FC381FC00F0258F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A45BB41FC37DAD00F0258F /* SearchCell.xib in Resources */,
 				E0A45B8A1FC35B0400F0258F /* LaunchScreen.storyboard in Resources */,
 				E0A45B871FC35B0400F0258F /* Assets.xcassets in Resources */,
 			);
@@ -173,8 +257,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A45BB31FC37DAD00F0258F /* SearchCell.swift in Sources */,
+				E0A45BAD1FC367AA00F0258F /* SearchResult.swift in Sources */,
+				E0A45BA21FC35E4200F0258F /* Endpoint.swift in Sources */,
+				E0A45BAB1FC366BF00F0258F /* SearchAssembly.swift in Sources */,
+				E0A45BB01FC36C4900F0258F /* SearchRepository.swift in Sources */,
+				E0A45BA61FC35E5900F0258F /* WebServiceAssembly.swift in Sources */,
+				E0A45B9D1FC35E2100F0258F /* SearchViewController.swift in Sources */,
+				E0A45BA41FC35E4B00F0258F /* WebService.swift in Sources */,
 				E0A45B921FC35B1900F0258F /* AppAssembly.swift in Sources */,
-				E0A45B821FC35B0400F0258F /* ViewController.swift in Sources */,
+				E0A45B9F1FC35E2A00F0258F /* SearchPresenter.swift in Sources */,
 				E0A45B961FC35B9200F0258F /* CoreAssembly.swift in Sources */,
 				E0A45B801FC35B0400F0258F /* AppDelegate.swift in Sources */,
 				E0A45B9A1FC35C6A00F0258F /* Recipe.swift in Sources */,
