@@ -62,9 +62,7 @@ class SearchViewController: UITableViewController, UISearchBarDelegate {
     //MARK: - SearchBar delegate
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        if(searchText.count >= 2){
              presenter.search(query: searchBar.text!)
-        }
     }
  
 

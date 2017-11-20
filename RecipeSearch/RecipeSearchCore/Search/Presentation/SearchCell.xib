@@ -36,17 +36,30 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nga-sO-PYM">
+                        <rect key="frame" x="105" y="43" width="189" height="46"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="46" id="LDZ-WE-E14"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
                     <constraint firstItem="8Th-Iy-8ir" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="0k8-Lu-vqr"/>
+                    <constraint firstItem="Nga-sO-PYM" firstAttribute="leading" secondItem="zWj-mR-jrz" secondAttribute="leading" id="Wl4-ME-ohf"/>
                     <constraint firstItem="zWj-mR-jrz" firstAttribute="leading" secondItem="8Th-Iy-8ir" secondAttribute="trailing" constant="10" id="XCv-p4-kz4"/>
+                    <constraint firstItem="Nga-sO-PYM" firstAttribute="top" secondItem="zWj-mR-jrz" secondAttribute="bottom" constant="1" id="Y2o-Zc-ZmS"/>
                     <constraint firstItem="8Th-Iy-8ir" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="buw-jj-JXl"/>
                     <constraint firstAttribute="trailingMargin" secondItem="zWj-mR-jrz" secondAttribute="trailing" constant="10" id="fA9-5a-tOi"/>
+                    <constraint firstItem="Nga-sO-PYM" firstAttribute="trailing" secondItem="zWj-mR-jrz" secondAttribute="trailing" id="kCX-om-yyA"/>
                     <constraint firstItem="zWj-mR-jrz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="u41-Jp-6Vo"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="ingredients" destination="Nga-sO-PYM" id="68l-Xx-BE4"/>
                 <outlet property="thumbnail" destination="8Th-Iy-8ir" id="Vuo-mA-nF0"/>
                 <outlet property="title" destination="zWj-mR-jrz" id="00K-ul-Grf"/>
             </connections>

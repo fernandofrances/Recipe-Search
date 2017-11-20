@@ -11,5 +11,5 @@ import Foundation
 struct Recipe: Decodable {
     let title: String
     let ingredients: String
-    let thumbnail: String
+    var thumbnail: String = ""
 }

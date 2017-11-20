@@ -23,6 +23,7 @@
 		E0A45BB01FC36C4900F0258F /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BAF1FC36C4900F0258F /* SearchRepository.swift */; };
 		E0A45BB31FC37DAD00F0258F /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BB11FC37DAD00F0258F /* SearchCell.swift */; };
 		E0A45BB41FC37DAD00F0258F /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A45BB21FC37DAD00F0258F /* SearchCell.xib */; };
+		E0A45BB71FC3825C00F0258F /* String+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A45BB61FC3825C00F0258F /* String+Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		E0A45BAF1FC36C4900F0258F /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
 		E0A45BB11FC37DAD00F0258F /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		E0A45BB21FC37DAD00F0258F /* SearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
+		E0A45BB61FC3825C00F0258F /* String+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Image.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		E0A45BB51FC381FC00F0258F /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				E0A45BB61FC3825C00F0258F /* String+Image.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				E0A45BAB1FC366BF00F0258F /* SearchAssembly.swift in Sources */,
 				E0A45BB01FC36C4900F0258F /* SearchRepository.swift in Sources */,
 				E0A45BA61FC35E5900F0258F /* WebServiceAssembly.swift in Sources */,
+				E0A45BB71FC3825C00F0258F /* String+Image.swift in Sources */,
 				E0A45B9D1FC35E2100F0258F /* SearchViewController.swift in Sources */,
 				E0A45BA41FC35E4B00F0258F /* WebService.swift in Sources */,
 				E0A45B921FC35B1900F0258F /* AppAssembly.swift in Sources */,
