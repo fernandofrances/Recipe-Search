@@ -1,2 +1,3 @@
 # Recipe search app
-searching recipes from [*Recipes API*](http://www.recipepuppy.com/about/api/?q=w)
+This app searches recipes from this [*Recipes API*](http://www.recipepuppy.com/about/api/?q=w)
+
